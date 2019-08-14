@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ColladaViewer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\CGL\;CMake Files\CGL\deps\;CMake Files\CGL\deps\glew\;CMake Files\CGL\deps\glfw\;CMake Files\CGL\deps\glfw\src\;CMake Files\CGL\src\;CMake Files\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glew">
+				<Option output="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/deps/glew/libglew.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/deps/glew"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glew/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/deps/glew/Makefile&quot;  VERBOSE=1 glew"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/deps/glew/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/deps/glew/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/deps/glew/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glew/fast">
+				<Option output="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/deps/glew/libglew.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/deps/glew"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glew/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/deps/glew/Makefile&quot;  VERBOSE=1 glew/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/deps/glew/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/deps/glew/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/deps/glew/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/deps/glfw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/deps/glfw/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/deps/glfw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/deps/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/deps/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/deps/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/deps/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glfw/src"/>
+					<Add directory="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/deps/glfw/src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/deps/glfw/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/deps/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/deps/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/deps/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/deps/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/deps/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glfw/src"/>
+					<Add directory="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/deps/glfw/src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/deps/glfw/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/deps/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/deps/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/deps/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CGL">
+				<Option output="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/src/libCGL.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/include"/>
+					<Add directory="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glew/include"/>
+					<Add directory="/usr/local/include/freetype2"/>
+					<Add directory="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/src/Makefile&quot;  VERBOSE=1 CGL"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CGL/fast">
+				<Option output="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/src/libCGL.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/include"/>
+					<Add directory="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glew/include"/>
+					<Add directory="/usr/local/include/freetype2"/>
+					<Add directory="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/src/Makefile&quot;  VERBOSE=1 CGL/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="meshedit">
+				<Option output="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/meshedit" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=".."/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/include"/>
+					<Add directory="/usr/local/include/freetype2"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 meshedit"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="meshedit/fast">
+				<Option output="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/meshedit" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=".."/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/include"/>
+					<Add directory="/usr/local/include/freetype2"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 meshedit/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glew/src/glew.c">
+			<Option target="glew"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glew/src/glewinfo.c">
+			<Option target="glew"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glew/src/visualinfo.c">
+			<Option target="glew"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glfw/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glfw/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glfw/src/cocoa_init.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glfw/src/cocoa_monitor.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glfw/src/cocoa_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glfw/src/cocoa_window.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glfw/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glfw/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glfw/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glfw/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glfw/src/iokit_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glfw/src/iokit_joystick.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glfw/src/mach_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glfw/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glfw/src/nsgl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glfw/src/nsgl_context.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glfw/src/posix_tls.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glfw/src/posix_tls.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glfw/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/src/CGL.h">
+			<Option target="CGL"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/src/base64.cpp">
+			<Option target="CGL"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/src/base64.h">
+			<Option target="CGL"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/src/color.cpp">
+			<Option target="CGL"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/src/color.h">
+			<Option target="CGL"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/src/complex.cpp">
+			<Option target="CGL"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/src/complex.h">
+			<Option target="CGL"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/src/matrix3x3.cpp">
+			<Option target="CGL"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/src/matrix3x3.h">
+			<Option target="CGL"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/src/matrix4x4.cpp">
+			<Option target="CGL"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/src/matrix4x4.h">
+			<Option target="CGL"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/src/osdfont.cpp">
+			<Option target="CGL"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/src/osdtext.cpp">
+			<Option target="CGL"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/src/osdtext.h">
+			<Option target="CGL"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/src/quaternion.cpp">
+			<Option target="CGL"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/src/quaternion.h">
+			<Option target="CGL"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/src/renderer.h">
+			<Option target="CGL"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/src/tinyxml2.cpp">
+			<Option target="CGL"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/src/tinyxml2.h">
+			<Option target="CGL"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/src/vector2D.cpp">
+			<Option target="CGL"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/src/vector2D.h">
+			<Option target="CGL"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/src/vector3D.cpp">
+			<Option target="CGL"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/src/vector3D.h">
+			<Option target="CGL"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/src/vector4D.cpp">
+			<Option target="CGL"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/src/vector4D.h">
+			<Option target="CGL"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/src/viewer.cpp">
+			<Option target="CGL"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/src/viewer.h">
+			<Option target="CGL"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/cmake-build-debug/CGL/deps/glfw/src/glfw_config.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/src/bezierCurve.cpp">
+			<Option target="meshedit"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/src/bezierCurve.h">
+			<Option target="meshedit"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/src/bezierPatch.cpp">
+			<Option target="meshedit"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/src/bezierPatch.h">
+			<Option target="meshedit"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/src/camera.cpp">
+			<Option target="meshedit"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/src/camera.h">
+			<Option target="meshedit"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/src/collada.cpp">
+			<Option target="meshedit"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/src/collada.h">
+			<Option target="meshedit"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/src/halfEdgeMesh.cpp">
+			<Option target="meshedit"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/src/halfEdgeMesh.h">
+			<Option target="meshedit"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/src/light.cpp">
+			<Option target="meshedit"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/src/light.h">
+			<Option target="meshedit"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/src/main.cpp">
+			<Option target="meshedit"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/src/material.cpp">
+			<Option target="meshedit"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/src/material.h">
+			<Option target="meshedit"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/src/mergeVertices.h">
+			<Option target="meshedit"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/src/mesh.cpp">
+			<Option target="meshedit"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/src/mesh.h">
+			<Option target="meshedit"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/src/meshEdit.cpp">
+			<Option target="meshedit"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/src/meshEdit.h">
+			<Option target="meshedit"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/src/png.cpp">
+			<Option target="meshedit"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/src/png.h">
+			<Option target="meshedit"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/src/scene.cpp">
+			<Option target="meshedit"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/src/scene.h">
+			<Option target="meshedit"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/src/shaderUtils.h">
+			<Option target="meshedit"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/src/student_code.cpp">
+			<Option target="meshedit"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/src/student_code.h">
+			<Option target="meshedit"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/src/texture.cpp">
+			<Option target="meshedit"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/src/texture.h">
+			<Option target="meshedit"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CGL\"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glew/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CGL\deps\glew\"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CGL\deps\glfw\"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glfw/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\CGL\deps\glfw\"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CGL\deps\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\CGL\deps\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\CGL\deps\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/deps/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\CGL\deps\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/CGL/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CGL\src\"/>
+		</Unit>
+		<Unit filename="/Users/Family/Desktop/p2-meshedit-Kevin-Arias-master/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
