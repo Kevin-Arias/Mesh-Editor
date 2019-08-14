@@ -61,4 +61,4 @@ There will be several commands which will allow you to modify the mesh in a vari
 
 Note that each COLLADA file may contain multiple mesh objects. More generally, a COLLADA file describes a __scene graph__ (much like SVG) that is a hierarchical representation of all objects in the scene (meshes, cameras, lights, etc.), as well as their coordinate transformations. Global resampling methods will be run on whichever mesh is currently selected.
 
-
+The following website goes into extreme detail about each part of the mesh editor and displays a variety of the possible reults that can be made using the mesh editor: https://kevin-arias.github.io/Mesh-Editor/
